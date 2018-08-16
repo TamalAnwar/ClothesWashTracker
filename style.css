@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+}
+
+body {
+	font-size: 1rem;
+	line-height: 1.6em;
+	background-color: #b3caf5;
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+
+}
+/* Main wrapper to contain all items  */
+.wrapper {
+	width: 650px;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: -5px 5px 0 #a1b5dc;
+}
+
+/* For adding space for elements other than the add form  */
+.wrap {
+	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+a,
+a:visited {
+	color: #7d74a6;
+}
+
+a.update:hover {
+	text-decoration: underline;
+}
+
+.delete_box {
+	float: right;
+}
+
+a.delete {
+	padding: 0 6px;
+	background-color: #dddddd;
+	border-radius: 5px;
+}
+a.delete:hover {
+	background: red;
+	color: #ffffff;
+}
+
+/* Top title text and form  */
+.title {
+	margin-bottom: 1em;
+}
+
+.title_form
+input[name='title'] {
+	font-size: 2rem;
+	border: 0;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+
+
+/* Item adding form  */
+.addItems {
+	background-color: #c1bcf9;
+	padding: 10px 10px 10px 20px;
+	box-shadow: -5px 5px 5px #dddddd;
+}
+
+
+.itemList {
+	padding-left: 40px;
+}
+
+.itemList li {
+	padding: 0.5rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.itemList li:last-child {
+	border: 0;
+}
+
+/* All input forms  */
+input {
+	max-width: 100%;
+}
+
+.addItems {/* The form styles */
+
+}
+
+
+
+.addItems
+input[type='date'] {
+	font-family: inherit;
+}
+
+.addItems
+input[type='text'],
+input[type='date'] {
+	/* font-size: 0.8rem; */
+	padding: 5px;
+}
+
+.addItems
+input[type='submit'] {
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 3px 10px;
+	margin-left: 5px;
+	background-color: #FFDB00;
+	border: 0;
+	box-shadow:
+	-1px 1px 0 #CCAF00,
+	-2px 2px 0 #CCAF00,
+	-3px 3px 0 #CCAF00,
+	-4px 4px 0 #CCAF00,
+	-5px 5px 0 #CCAF00
+
+							;
+}
+
+.credits {
+	font-size: 0.7rem;
+	text-align: center;
+}

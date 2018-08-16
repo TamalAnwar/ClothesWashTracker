@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Laundry List</title>
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- The title text  -->
+			<div class="title wrap">
+				<form class="title_form" method="GET">
+					<input type="text" name="title" placeholder="Edit and hit enter">
+				</form>
+			</div>
+			<!-- The main form to add items  -->
+			<form class="addItems" >
+				<small class="info">Add an item name, date and click add:</small>
+				<br>
+				<label for="item">Item: </label>
+				<input type="text" name="item" value="" placeholder="Eg. Blue Pant">
+				<label for="date">Date: </label>
+				<input type="date" name="date" value="">
+				<input type="submit" name="" value="Add ✔">
+			</form>
+			<!-- The area which the list items will show up -->
+			<ol class="itemList wrap">
+
+				<!-- All list items will go here -->
+
+			</ol>
+		</div>
+		<!-- Credits  -->
+		<div class="credits">2018 LaundryList v 1.0 - Put together by <a href="https://tamalweb.com/about">Tamal Anwar</a></div>
+		<script src="moment.min.js" charset="utf-8"></script>
+		<script src="script.js" charset="utf-8"></script>
+	</body>
+</html>
