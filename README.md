@@ -2,7 +2,7 @@
 
 Tracks the clothes by date.
 
-Use it here: http://www.tamalanwar.com/projects/laundry-list/
+(Use it here)[https://tamalanwar.github.io/ClothesWashTracker/]
 
 # To Do
 
